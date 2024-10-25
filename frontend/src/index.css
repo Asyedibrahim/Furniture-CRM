@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    box-sizing: border-box;
+}
+
+/* Disable text selection */
+.no-select {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard syntax */
+}
+
+.custom-side-bg .bg-gray-50 {
+    background-color: #fff  !important;
+}
+
+.flowbite-modal-close button{
+    color: red !important;
+    transition: all 0.2s ease-in-out;
+}
+.flowbite-modal-close button:hover{
+    background-color: rgb(214, 11, 11) !important;
+    color: white !important;
+}
